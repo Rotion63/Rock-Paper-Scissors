@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+body{
+    background:url(./background.jpg);
+}
+
+.gameWrapper{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.playSectionWrapper{
+    width: 750px;
+}
+.logTableWrapper{
+    width: 500px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.result{
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.playerButton{
+    scale: 1;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 25px;
+}
+.playerButton button{
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+.playerButton button:hover{
+    scale: 1.1;
+    border: rgb(201, 201, 82);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+
+.nameWrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 185px;
+}
+
+.playerName,.computerName{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 125px;
+    font-weight: bold;
+    color:blue;
+}
+.scoreBox{
+    display: flex;
+    justify-content: center;
+    column-gap: 185px;
+    margin-top: 10px;
+}
+.playerScore,.computerScore{
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-color: black;
+    border-style:solid;
+    border-radius: 5px;
+}
+.finalResult{
+    display: inline;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+.finalResult h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.finalResult p{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 35px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.logTable{
+    display: inline;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.logTable p{
+    display: flex;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    fill: cadetblue;
+    font-size: 20px;
+}
